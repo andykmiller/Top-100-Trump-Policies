@@ -13,7 +13,6 @@ nav a,.pagination a{border:1px solid var(--line);border-radius:999px;padding:7px
 .rank-list{columns:1;padding-left:24px}.rank-list li{margin:9px 0;break-inside:avoid}@media(min-width:760px){.rank-list{columns:2}}
 .rank-card{border:1px solid var(--line);border-radius:12px;margin:16px 0;overflow:hidden;box-shadow:0 1px 2px #0001}
 .rank-card>summary{cursor:pointer;list-style:none;padding:16px 18px;font-size:1.13rem;font-weight:750;background:#fbfbfc;border-left:6px solid #536d91}
-.rank-card.stub>summary{border-left-color:#9aa3b2}
 .rank-card>summary::-webkit-details-marker{display:none}
 .rank-card>summary::after{content:" +";float:right;color:var(--muted)}
 .rank-card[open]>summary::after{content:" –"}
@@ -28,7 +27,6 @@ nav a,.pagination a{border:1px solid var(--line);border-radius:999px;padding:7px
 .score-grid{display:grid;grid-template-columns:1fr auto auto;gap:6px 14px;max-width:650px}
 .score-grid div{border-bottom:1px dotted #c6ccd5;padding:3px 0}
 .badge{font-size:.72rem;text-transform:uppercase;color:white;border-radius:999px;padding:3px 8px;font-weight:700;margin-left:8px;background:#536d91}
-.badge.stub-badge{background:#7b8493}
 .tag{font-size:.8rem;color:#41546b;background:#eef2f7;border:1px solid #d9e0ea;border-radius:999px;padding:2px 7px;margin-left:6px}
 a{color:var(--link)}
 table{border-collapse:collapse;width:100%;max-width:900px}td,th{border:1px solid var(--line);padding:8px}th{background:var(--soft)}
