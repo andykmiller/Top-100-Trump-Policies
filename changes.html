@@ -1,28 +1,48 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Changes</title>
-<meta name="description" content="Changes and version history for the production candidate build.">
-<link rel="canonical" href="https://example.com/">
-<link rel="stylesheet" href="style.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "The 100 Most Consequential Trump Policies and Actions (2017\u20132026)", "description": "A transparent, nonpartisan ranking of Trump-era policies and actions by estimated impact."}</script>
-</head><body>
-<header><div class="wrapper">
-<h1>The 100 Most Consequential Trump Policies and Actions (2017–2026)</h1>
-<p class="meta">Production candidate: all 100 entries filled, generated from structured JSON.</p>
-<nav><a href="index.html">Home</a><a href="page1.html">1–25</a><a href="page2.html">26–50</a><a href="page3.html">51–75</a><a href="page4.html">76–100</a><a href="methodology.html">Methodology</a><a href="faq.html">FAQ</a><a href="sources.html">Sources</a><a href="project-log.html">Project Log</a><a href="changes.html">Changes</a><a href="compliance.html">Spec Compliance</a></nav>
-</div></header>
-<main class="wrapper">
-<h2>Changes</h2>
-<h3>Production Candidate v1.0 — 2026-06-20</h3>
-<ul>
-<li>Expanded ranks #26–100 from stubs into filled entries.</li>
-<li>Preserved ranks #1–25 from the public beta build.</li>
-<li>Generated all HTML pages from <code>rankings-data.json</code>.</li>
-<li>Included descriptions, Supportive Analysis, Critical Analysis, Why This Rank, score breakdowns, and source links for all 100 entries.</li>
-<li>Retained SEO FAQ, methodology, sources, project log, changes, and spec-compliance pages.</li>
-</ul>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQTNHB9WEV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BQTNHB9WEV');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Changes | Trump Policies Ranked by Impact</title>
+  <meta name="description" content="Version history and changes for the Trump impact ranking project.">
+  <link rel="stylesheet" href="assets/styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">The 100 Most Consequential Trump Policies and Actions <span>2017-2026</span></a>
+  <nav class="site-nav" aria-label="Site navigation"><a href="index.html">Home</a>
+<a href="methodology.html">Methodology</a>
+<a href="faq.html">FAQ</a>
+<a href="sources.html">Sources</a>
+<a href="entries-001-025.html">Entries 1-25</a>
+<a href="entries-026-050.html">Entries 26-50</a>
+<a href="entries-051-075.html">Entries 51-75</a>
+<a href="entries-076-100.html">Entries 76-100</a></nav>
+</header>
+<main>
+
+<section class="page-title"><p class="eyebrow">Changes</p><h1>Changes Over Time</h1></section>
+<section class="text-page">
+  <h2>2026-07-13: Full HTML Package v2.1</h2>
+  <p>Generated full static HTML package from canonical JSON entries #1-100. Restored direct-entry auto-open behavior for home-page item links, kept header range links collapsed, expanded methodology page purpose text, and added Google Analytics to every page.</p>
+  <h2>Earlier Production Passes</h2>
+  <p>Prior versions established the ranking database, the v2.1 JSON schema, the Project Standards Manual, and expanded production entries in 5-entry batches to avoid quality regression.</p>
+</section>
+
 </main>
-<footer><div class="wrapper"><p>Production Candidate v1.0. Rankings measure estimated impact, not approval or disapproval.</p></div></footer>
-</body></html>
+<footer class="site-footer">
+  <p>Rankings measure estimated consequence, not approval or disapproval. Version generated 2026-07-13.</p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,31 +1,51 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Project Log</title>
-<meta name="description" content="Project development log for the Trump policy impact ranking website.">
-<link rel="canonical" href="https://example.com/">
-<link rel="stylesheet" href="style.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "The 100 Most Consequential Trump Policies and Actions (2017\u20132026)", "description": "A transparent, nonpartisan ranking of Trump-era policies and actions by estimated impact."}</script>
-</head><body>
-<header><div class="wrapper">
-<h1>The 100 Most Consequential Trump Policies and Actions (2017–2026)</h1>
-<p class="meta">Production candidate: all 100 entries filled, generated from structured JSON.</p>
-<nav><a href="index.html">Home</a><a href="page1.html">1–25</a><a href="page2.html">26–50</a><a href="page3.html">51–75</a><a href="page4.html">76–100</a><a href="methodology.html">Methodology</a><a href="faq.html">FAQ</a><a href="sources.html">Sources</a><a href="project-log.html">Project Log</a><a href="changes.html">Changes</a><a href="compliance.html">Spec Compliance</a></nav>
-</div></header>
-<main class="wrapper">
-<h2>Project Development Log</h2>
-<p>This page summarizes major user directions and key assistant suggestions rather than reproducing every draft.</p>
-<ul>
-<li>User requested a neutral website ranking the top 100 Trump accomplishments or impacts, good and bad, by impact.</li>
-<li>User requested supportive and critical source links instead of ideological labels.</li>
-<li>User requested transparent weighting and a ranking-details widget.</li>
-<li>User identified that a people/economic-heavy weighting underweighted USAID, WHO withdrawal, PEPFAR, courts, and institutional actions.</li>
-<li>Assistant suggested the current six-factor weighting: People 22%, Economic 18%, Permanence 22%, Duration 13%, International 13%, Historical Significance 12%.</li>
-<li>User requested governing documents to prevent regressions across versions.</li>
-<li>User approved a JSON-driven workflow so future builds preserve the master data source.</li>
-<li>This package expands all 100 entries and should be reviewed against the governing documents before public launch.</li>
-</ul>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQTNHB9WEV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BQTNHB9WEV');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Log | Trump Policies Ranked by Impact</title>
+  <meta name="description" content="Transparency log for the creation of the Trump impact ranking project.">
+  <link rel="stylesheet" href="assets/styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">The 100 Most Consequential Trump Policies and Actions <span>2017-2026</span></a>
+  <nav class="site-nav" aria-label="Site navigation"><a href="index.html">Home</a>
+<a href="methodology.html">Methodology</a>
+<a href="faq.html">FAQ</a>
+<a href="sources.html">Sources</a>
+<a href="entries-001-025.html">Entries 1-25</a>
+<a href="entries-026-050.html">Entries 26-50</a>
+<a href="entries-051-075.html">Entries 51-75</a>
+<a href="entries-076-100.html">Entries 76-100</a></nav>
+</header>
+<main>
+
+<section class="page-title"><p class="eyebrow">Transparency</p><h1>Project Log</h1></section>
+<section class="text-page">
+  <h2>Development Summary</h2>
+  <p>The project began as a request for a public-facing list of the top 100 Trump accomplishments or impacts, including positive and negative consequences without judging them as good or bad.</p>
+  <p>The public title was changed to "The 100 Most Consequential Trump Policies and Actions (2017-2026)" to avoid implying praise or criticism.</p>
+  <p>The methodology evolved from a people-and-money-heavy formula to a more balanced formula that includes institutional permanence, duration, international impact, and historical significance.</p>
+  <p>The editorial process changed after early drafts became too generic. The current standard requires specific descriptions, concrete facts, supportive and critical analysis, comparative ranking logic, and duplicate-text checks.</p>
+  <h2>Current Documentation Release</h2>
+  <p>Coordinated Documentation Release v2.1 governs the JSON structure and editorial standards used for this website build.</p>
+</section>
+
 </main>
-<footer><div class="wrapper"><p>Production Candidate v1.0. Rankings measure estimated impact, not approval or disapproval.</p></div></footer>
-</body></html>
+<footer class="site-footer">
+  <p>Rankings measure estimated consequence, not approval or disapproval. Version generated 2026-07-13.</p>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
