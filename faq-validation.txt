@@ -1,0 +1,7 @@
+FAQ questions: 30
+Direct ranking links: 107
+Broken or misrouted ranking links: 0
+Challenge Rankings references: 0
+Feedback references: 0
+Google Analytics present: yes
+FAQPage structured data present: yes

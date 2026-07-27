@@ -1,0 +1,4 @@
+HTML files checked: 10
+Validation problems: 0
+
+Exact repeated substantive paragraphs: 38
